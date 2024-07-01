@@ -1,3 +1,10 @@
+# 🚀 For the Api routes 
+# method GET -->http://localhost:1337/api/shops
+# method GET -->http://localhost:1337/api/images
+# method GET -->http://localhost:1337/api/shops
+# method GET->  http://localhost:1337/api/products
+![Screenshot 2024-07-01 174058](https://github.com/mihirkate/xzect-task-06/assets/97501267/58c17c6c-0277-4df3-b873-127241f6786d)
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
