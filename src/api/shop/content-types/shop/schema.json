@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shopId": {
+      "type": "uid",
+      "targetField": "ProductDetails",
+      "required": true
+    },
+    "checkOut": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "ProductDetails": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "checkOutTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "AddToCart": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

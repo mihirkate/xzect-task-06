@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PricingId": {
+      "type": "uid"
+    },
+    "price": {
+      "type": "decimal",
+      "min": 0
+    }
+  }
+}
